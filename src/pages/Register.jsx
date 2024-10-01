@@ -19,7 +19,7 @@ const Register = () => {
         setLoading(true); // Set loading to true
 
         try {
-            const response = await fetch("http://localhost:5000/api/auth/register", {
+            const response = await fetch("https://cartify-backend-flo0.onrender.com/api/auth/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
