@@ -8,7 +8,7 @@ const Footer = () => {
 <footer className="bg-dark text-white pt-5 pb-4">
       <div className="container text-center text-md-left">
         <div className="row text-center text-md-left">
-          {/* Company Information */}
+          
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold">Cartify</h5>
             <p>
@@ -16,7 +16,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Products */}
+          
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold">Products</h5>
             <p><a href="/" className="text-white" style={{ textDecoration: 'none' }}>Men's Fashion</a></p>
@@ -25,7 +25,7 @@ const Footer = () => {
             <p><a href="/" className="text-white" style={{ textDecoration: 'none' }}>Home Appliances</a></p>
           </div>
 
-          {/* Useful Links */}
+         
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold">Useful Links</h5>
             <p><a href="/" className="text-white" style={{ textDecoration: 'none' }}>Your Account</a></p>
@@ -34,7 +34,7 @@ const Footer = () => {
             <p><a href="/" className="text-white" style={{ textDecoration: 'none' }}>Help</a></p>
           </div>
 
-          {/* Contact Info */}
+        
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold">Contact</h5>
             <p><i className="fas fa-home mr-3"></i> Crossing repiblik, Ghaziabad</p>
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Bottom Row */}
+        
          <div className="row align-items-center">
 
           <div className="col-md-12">
@@ -61,7 +61,7 @@ const Footer = () => {
 
           <div className="col-md-12 col-lg-12">
             <p className="text-center text-md-left">
-              &copy; {new Date().getFullYear()} All Rights Reserved by <a href="/" className="text-white" style={{ textDecoration: 'none' }}>Cartify</a>
+              &copy; { new Date().getFullYear()} All Rights Reserved by <a href="/" className="text-white" style={{ textDecoration: 'none' }}>Cartify</a>
             </p>
           </div>   
       </div>
@@ -72,18 +72,7 @@ const Footer = () => {
 
 
 
-      {/* <footer className="mb-0 text-center">
-        <div className="d-flex align-items-center justify-content-center pb-5">
-          <div className="col-md-6">
-            <p className="mb-3 mb-md-0">Made with ❤️ by {" "}
-              <a  href="https://sahibsingh.dev" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">Sahib Singh</a>
-            </p>
-            <a className="text-dark fs-4" href="https://github.com/ssahibsingh" target="_blank" rel="noreferrer">
-              <i className="fa fa-github"></i>
-            </a>
-          </div>
-        </div>
-      </footer> */}
+     
     </>
   );
 };

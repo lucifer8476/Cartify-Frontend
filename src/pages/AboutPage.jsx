@@ -8,34 +8,28 @@ const AboutPage = () => {
         <h1 className="text-center">About Us</h1>
         <hr />
         <p className="lead text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          facere doloremque veritatis odit similique sequi. Odit amet fuga nam
-          quam quasi facilis sed doloremque saepe sint perspiciatis explicabo
-          totam vero quas provident ipsam, veritatis nostrum velit quos
-          recusandae est mollitia esse fugit dolore laudantium. Ex vel explicabo
-          earum unde eligendi autem praesentium, doloremque distinctio nesciunt
-          porro tempore quis eaque labore voluptatibus ea necessitatibus
-          exercitationem tempora molestias. Ad consequuntur veniam sequi ullam
-          tempore vel tenetur soluta dolore sunt maxime aliquam corporis est,
-          quo saepe dolorem optio minus sint nemo totam dolorum! Reprehenderit
-          delectus expedita a alias nam recusandae illo debitis repellat libero,
-          quasi explicabo molestiae saepe, dolorem tempore itaque eveniet quam
-          dignissimos blanditiis excepturi harum numquam vel nihil? Ipsum
+        Welcome to Cartify, where your shopping experience is our top priority! Founded with a passion for quality and style, we aim to be your go-to online destination for all things fashion, electronics, and home essentials.
+
+At Cartify, we understand that shopping should be enjoyable and effortless. That's why we curate a diverse range of products—from stylish clothing and footwear to the latest electronics and exquisite furniture. Our mission is to offer our customers an extensive selection that caters to every lifestyle and taste, ensuring that you find exactly what you're looking for.
+
+We pride ourselves on our commitment to quality and customer satisfaction. Our dedicated team works tirelessly to source the best products, negotiate unbeatable prices, and provide exceptional customer service. Whether you’re looking to refresh your wardrobe, upgrade your tech, or beautify your living space, Cartify is here to help you every step of the way.
+
+Join us on this exciting shopping journey and experience the joy of discovering new favorites at Cartify—where quality meets style!
         </p>
 
         <h2 className="text-center py-4">Our Products</h2>
         <div className="row">
           <div className="col-md-3 col-sm-6 mb-3 px-3">
             <div className="card h-100">
-              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
+              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
               <div className="card-body">
                 <h5 className="card-title text-center">Clothing</h5>
-              </div>
+              </div>  
             </div>
           </div>
           <div className="col-md-3 col-sm-6 mb-3 px-3">
             <div className="card h-100">
-              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
+              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
               <div className="card-body">
                 <h5 className="card-title text-center">Shoes</h5>
               </div>
